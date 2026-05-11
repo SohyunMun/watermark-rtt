@@ -1,6 +1,6 @@
 WATERMARK_METHODS = ["KGW", "AWT", "SynthID", "Unigram"]
 
-LANG_CODES = {
+LANGUAGE_CODES = {
     "ZH": "zho_Hans",
     "DE": "deu_Latn",
     "JA": "jpn_Jpan",
@@ -10,4 +10,5 @@ LANG_CODES = {
     "GRN": "grn_Latn",
 }
 
+MODEL_NAME = "facebook/nllb-200-distilled-600M"
 MAX_TOKENS = 512
